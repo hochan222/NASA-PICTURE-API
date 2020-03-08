@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.2/workbox-sw.js");
 
 importScripts(
-  "/hochan222.github.io/precache-manifest.ae4e5f8445ca8133c5a4efa0f83470a3.js"
+  "/NASA-PICTURE-API/precache-manifest.5164c9ba4e15b96b8d7554f365c88675.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/hochan222.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/NASA-PICTURE-API/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
